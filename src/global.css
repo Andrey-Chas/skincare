@@ -1,0 +1,313 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.menu-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("./assets/Rectangle_2.png");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-text {
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+    color: #FFFFFF;
+}
+
+.menu-text-heading {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.menu-text-description {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.menu-btn {
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    padding: 14px 40px 14px 40px;
+    gap: 8px;
+    color: #1C2635;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #C3EDFF;
+}
+
+.menu-btn:hover {
+    background-color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.question {
+    text-align: center;
+    font-family: sans-serif;
+    color: #1C2635;
+}
+
+.question-name {
+    margin-bottom: 32px;
+    transform: translate(-50%, -50%);
+    width: 583px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.radio-button-group {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    margin-bottom: 32px;
+    gap: 10px;
+}
+
+.radio-button input[type="radio"] {
+    display: none;
+}
+
+.radio-button {
+    display: inline-block;
+    padding: 14px 40px 14px 20px;
+    width: 189px;
+    border: 1px solid #5BC1ED;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.radio-button.selected {
+    background-color: #5BC1ED;
+    color: #fff;
+    border-color: #5BC1ED;
+}
+
+.question-btn-group {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+.question-btn {
+    outline: 0;
+    border: 0;
+    margin-left: 20px;
+    border-color: #C3EDFF;
+    border-radius: 8px;
+    padding: 14px 40px 14px 40px;
+    color: #1C2635;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #C3EDFF;
+}
+
+.question-btn:hover {
+    background-color: #FFFFFF;
+    transition: 0.5s;
+    border: 1px solid;
+    border-color: #C3EDFF;
+}
+
+.question-btn-link {
+    color: #677487;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.question-btn-link:hover {
+    color: #677487;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.circular-progress-bar {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 39%;
+    left: 90%;
+}
+
+.result-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("./assets/Rectangle2.png");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.result-text {
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+
+.result-text-heading {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+}
+
+.result-text-description {
+    width: 563px;
+    height: 131px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.result-btn {
+    outline: 0;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    padding: 14px 40px 14px 40px;
+    gap: 8px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.result-btn:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
+.product-card-group {
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    top: 98%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    gap: 36px;
+    color: #1C2635;
+}
+
+.scrolling {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.description-card {
+    width: 350px;
+    height: 420px;
+    border: 0;
+    flex: 0 0 250px;
+    border-radius: 8px;
+}
+
+.display-product-card {
+    display: flex;
+    overflow: hidden;
+    width: 720px;
+    gap: 16px;
+}
+
+.product-card {
+    width: 350px;
+    height: 420px;
+    border: 0;
+    border-radius: 8px;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card-color {
+    background-color: #FFFFFF;
+}
+
+.description-card-color {
+    background-color: #EEF7FB;
+}
+
+.product-text-heading {
+    text-align: center;
+    font-size: 24px;
+    line-height: 26.4px;
+    font-weight: 600;
+}
+
+.product-text-description {
+    width: 231px;
+    height: 286px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.product-text-group {
+    padding: 46px 59px 53px 60px;
+}
+
+.product-image {
+    width: 350px;
+    height: 345px;
+    border-radius: 8px;
+}
+
+.product-name {
+    width: 350px;
+    height: 25.5px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+.product-price {
+    width: 350px;
+    height: 25.5px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+.scroll-btn {
+    background-color: #EEF7FB;
+    border: 0;
+    border-radius: 30px;
+    width: 60.06px;
+    height: 60.06px;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 8px;
+    right: 70px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.heart-icon:hover {
+    transform: scale(1.1);
+}

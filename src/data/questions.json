@@ -1,0 +1,82 @@
+[
+    {
+        "id": "1",
+        "question": "What's your hair type or texture?",
+        "answers": [
+            "a. Straight",
+            "b. Curly",
+            "c. Wavy",
+            "d. Fine"
+        ],
+        "1": "straight",
+        "2": "curly",
+        "3": "wavy",
+        "4": "fine"
+    },
+    {
+        "id": "2",
+        "question": "How often do you wash your hair?",
+        "answers": [
+            "a. Daily",
+            "b. Every other day",
+            "c. Twice a week",
+            "d. Once a week",
+            "e. Every two weeks"
+        ],
+        "value1": "daily",
+        "value2": "every other day",
+        "value3": "twice a week",
+        "value4": "once a week",
+        "value5": "once every two weeks"
+    },
+    {
+        "id": "3",
+        "question": "What benefit do you look for in your hair products?",
+        "answers": [
+            "a. Anti-breakage",
+            "b. Hydration",
+            "c. Soothing dry scalp",
+            "d. Repairs the appearance of damaged hair",
+            "e. Volume",
+            "f. Curl and coil enhancing"
+        ],
+        "value1": "anti-breakage",
+        "value2": "hydration",
+        "value3": "soothing dry scalp",
+        "value4": "repairs the appearance of damaged hair",
+        "value5": "volume",
+        "value6": "curl and coil enhancing"
+    },
+    {
+        "id": "4",
+        "question": "Is there anything troubling you about your hair?",
+        "answers": [
+            "a. Breakage",
+            "b. Frizz",
+            "c. Scalp dryness",
+            "d. Damage",
+            "e. Tangling"
+        ],
+        "value1": "breakage",
+        "value2": "frizz",
+        "value3": "scalp dryness",
+        "value4": "damage",
+        "value5": "tangling"
+    },
+    {
+        "id": "5",
+        "question": "What is your natural hair color(s) today?",
+        "answers": [
+            "a. Black",
+            "b. Brown",
+            "c. Blonde",
+            "d. Red/Orange",
+            "e. Silver/Grey"
+        ],
+        "value1": "black",
+        "value2": "brown",
+        "value3": "blonde",
+        "value4": "red/orange",
+        "value5": "silver/grey"
+    }
+]
